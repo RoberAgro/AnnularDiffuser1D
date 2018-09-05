@@ -4,7 +4,7 @@
 clear all                               % Clear worskpace variables
 close all                               % Close previous figures
 clc                                     % Clear command window
-addpath([pwd,'/FUNCTIONS'])             % Add path to the functions folder
+addpath([pwd,'/functions'])             % Add path to the functions folder
 plot_settings                           % Configure plot settings
 
 
@@ -42,7 +42,7 @@ v_t = v_m*tan(alpha);                   % Inlet tangential velocity
 
 %% Solve the flow in the diffuser
 % Call the main function: computation_diffuser.m
-[m,U,geometry,Cp] = AnnularDiffuser(AR,phi_1,phi_2,R,H,v_m,v_t,d,p,Cf,fluid);
+[m,U,geometry,Cp] = AnnularDiffuser1D(AR,phi_1,phi_2,R,H,v_m,v_t,d,p,Cf,fluid);
 
 % Solution along the diffuser
 v_m = U(:,1);
