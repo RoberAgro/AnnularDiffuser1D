@@ -31,7 +31,7 @@ Contact the email address [roberto.agromayor@ntnu.no](mailto:roberto.agromayor@n
 
 [2] R. Agromayor, and L. O. Nord, AnnularDiffuser1D, Zenodo repository, 2018
 
-[![DOI](https://zenodo.org/badge/147340277.svg)](https://zenodo.org/badge/latestdoi/147340277)
+[![DOI](https://zenodo.org/badge/147427825.svg)](https://zenodo.org/badge/latestdoi/147427825)
 
 [3] The MathWorks Inc., MATLAB version R2018a, 2018.
 
