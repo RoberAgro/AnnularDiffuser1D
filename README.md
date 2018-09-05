@@ -24,7 +24,7 @@ Contact the email address [roberto.agromayor@ntnu.no](mailto:roberto.agromayor@n
 
 
 ## References
-[1] R. Agromayor, and L. O. Nord, One-Dimensional Annular Diffuser Model for Preliminary Turbomachinery Design, (add more publication details here), 2018.
+[1] R. Agromayor, and L. O. Nord, One-Dimensional Annular Diffuser Model for Preliminary Turbomachinery Design, (not published yet), 2018.
 
 [![DOI](https://img.shields.io/badge/DOI-Diffuser_paper_DOI-blue.svg)](https://www.google.com) (not ready yet)
 
