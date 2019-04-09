@@ -1,9 +1,9 @@
 # AnnularDiffuser1D
-AnnularDiffuser1D is a one-dimensional flow model for annular diffusers that allows to use arbitrary equations of state and to account for the effects of area change, heat transfer, and friction. The model is documented in a peer-reviewed, [open-access publication](#1) and the source code is also stored in a [Zenodo repository](#2).
+AnnularDiffuser1D is a one-dimensional flow model for annular diffusers that allows to use arbitrary equations of state and to account for the effects of area change, heat transfer, and friction. The model is documented in a peer-reviewed, [open-access publication](https://www.google.com) and the source code is also stored in a [Zenodo repository](https://doi.org/10.5281/zenodo.1409711).
 
 
 ## Requisites
-AxialOpt was implemented in [MATLAB R2018a](https://nl.mathworks.com/) and requires a [REFPROP v9.1](#3) installation. The folder [link_refprop_matlab](link_refprop_matlab) contains instructions about how to link REFPROP with MATLAB.
+AxialOpt was implemented in [MATLAB R2018a](https://nl.mathworks.com/) and requires a [REFPROP v9.1](https://dx.doi.org/10.18434/T4JS3C) installation. The folder [link_refprop_matlab](link_refprop_matlab) contains instructions about how to link REFPROP with MATLAB.
 
 
 ## Examples
@@ -24,23 +24,21 @@ If you want to cite AnnularDiffuser1D in a scientific publication, please refer 
 
 
 ## References
-
-<a name="1"></a>
 R. Agromayor, and L. O. Nord, One-Dimensional Annular Diffuser Model for Preliminary Turbomachinery Design, International Journal of Turbomachinery, Propulsion and Power (submitted).
 
-[![DOI](https://img.shields.io/badge/DOI-Diffuser_paper_DOI-blue.svg)](https://www.google.com) (not ready yet)
+[![DOI OneDimensional_Annular_Diffuser_Model_for_Preliminary_Turbomachinery_Design](https://img.shields.io/badge/DOI-OneDimensional_Annular_Diffuser_Model_for_Preliminary_Turbomachinery_Design-blue.svg)](https://www.google.com/)
 
 
-<a name="2"></a>
 R. Agromayor, and L. O. Nord, AnnularDiffuser1D - A One-Dimensional Model for the Performance Prediction of Annular Diffusers, Zenodo repository.
 
-[![DOI](https://zenodo.org/badge/147427825.svg)](https://doi.org/10.5281/zenodo.1409711)
+[![DOI AnnularDiffuser1D_Zenodo_repository](https://img.shields.io/badge/DOI-AnnularDiffuser1D_Zenodo_repository-blue.svg)](https://doi.org/10.5281/zenodo.2616406)
 
 
-<a name="3"></a>
+
 E. W. Lemmon, M. L. Huber, and M. O. McLinden, NIST Standard Reference Database 23: Reference Fluid Thermodynamic and Transport Properties (REFPROP) version 9.1, National Institute of Standards and Technology, 2013.
 
-[![DOI](https://img.shields.io/badge/DOI-https://dx.doi.org/10.18434/T4JS3C-blue.svg)](https://dx.doi.org/10.18434/T4JS3C)
+[![DOI REFPROP_fluid_library](https://img.shields.io/badge/DOI-REFPROP_fluid_library-blue.svg)](https://dx.doi.org/10.18434/T4JS3C)
+
 
 
 
