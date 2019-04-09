@@ -1,11 +1,11 @@
 %% AnnularDiffuser demo
 % Author: Roberto Agromayor
 % Date: 25/08/2018
-clear all                               % Clear worskpace variables
-close all                               % Close previous figures
-clc                                     % Clear command window
-addpath([pwd,'/functions'])             % Add path to the functions folder
-plot_settings                           % Configure plot settings
+clear all                                                                  % Clear worskpace variables
+close all                                                                  % Close previous figures
+clc                                                                        % Clear command window
+addpath(genpath('../AnnularDiffuser1D_source_code'))                       % Add path to source
+plot_settings                                                              % Configure plot settings
 
 
 %% Define input parameters
@@ -100,8 +100,8 @@ ylabel({'Energy distribution (J/kg)';' '});
 ax_fig3.XAxis.TickLabelFormat = '%.0f';
 ax_fig3.YAxis.TickLabelFormat = '%.0f';
 ax_fig3.XTick = 1:1:10;
-ax_fig3.YTick = 0:1000:6000;
-axis([1 AR 0 6000])
+ax_fig3.YTick = 0:2000:8000;
+axis([1 AR 0 8000])
 
 plot(AR_vec,h_0-h(1),'k')
 plot(AR_vec,h-h(1),'b')
@@ -113,7 +113,7 @@ legend('Stagnation enthalpy -- $h_0$','Static enthalpy -- $h$','Kinetic energy -
 %% Plot the diffuser geometry
 figure4 = figure(4); ax_fig4 = gca;
 hold on; axis image; box on
-xlabel({' ';'$z$ -- Axial direction '});
+xlabel({' ';'$x$ -- Axial direction '});
 ylabel({'$r$ -- Radial direction';' '});
 ax_fig4.XAxis.TickLabelFormat = '%.0f';
 ax_fig4.YAxis.TickLabelFormat = '%.0f';
@@ -130,6 +130,6 @@ r_inner = geometry.r_inner;
 r_outer = geometry.r_outer;
 z = [z_inner; z_outer(end:-1:1); z_inner(1)];
 r = [r_inner; r_outer(end:-1:1); r_inner(1)];
-
 plot(z,r,'k')
 plot(z_mean,r_mean,'k--')
+

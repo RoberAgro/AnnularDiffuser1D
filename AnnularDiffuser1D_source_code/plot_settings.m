@@ -1,10 +1,12 @@
 function plot_settings
 %% Printing options
+% Author: Roberto Agromayor
+
 FontName = 'monospace';
-FontSize = 9;
+FontSize = 11;
 AxLineWidth = 0.75;
-LineWidth = 1.00;
-MarkerSize = 5;
+LineWidth = 0.50;
+MarkerSize = 2.5;
 
 % Setting LaTeX as text interpreter
 set(groot,'DefaultTextInterpreter','latex', ...
@@ -37,6 +39,8 @@ set(groot, 'DefaultFigureColor','White' , ...
 'DefaultTextFontName', FontName, ...    % Not applied when LaTeX is used
 'DefaultAxesFontName', FontName, ...    % Not applied when LaTeX is used
 'DefaultTextFontSize', FontSize, ...
+'DefaultLegendFontSize', FontSize-1, ...
+'DefaultLegendFontSizeMode','manual', ...
 'DefaultTextVerticalAlignment', 'middle', ...
 'DefaultTextHorizontalAlignment', 'left')
 
