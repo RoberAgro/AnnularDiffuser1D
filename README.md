@@ -7,7 +7,7 @@ AxialOpt was implemented in [MATLAB R2018a](https://nl.mathworks.com/) and requi
 
 
 ## Examples
-The folder [AnnularDiffuser1D](AnnularDiffuser1D) contains an example commented in detail to get started with the code. Check the function [`AnnularDiffuser1D.m`](AnnularDiffuser1D_source_code/AnnularDiffuser1D.m) to see the implementation of the diffuser model.
+The script [`AnnularDiffuser1D_demo.m`](AnnularDiffuser1D_examples/AnnularDiffuser1D_demo.m) is a commented example to get started with the code. Check the function [`AnnularDiffuser1D.m`](AnnularDiffuser1D_source_code/AnnularDiffuser1D.m) to see the implementation of the diffuser model.
 
 
 ## License
