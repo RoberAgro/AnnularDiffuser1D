@@ -1,5 +1,5 @@
 # AnnularDiffuser1D
-AnnularDiffuser1D is a one-dimensional flow model for annular diffusers that allows to use arbitrary equations of state and to account for the effects of area change, heat transfer, and friction. The model is documented in a peer-reviewed, [open-access publication](https://www.google.com) and the source code is also stored in a [Zenodo repository](https://doi.org/10.5281/zenodo.1409711).
+AnnularDiffuser1D is a one-dimensional flow model for annular diffusers that allows to use arbitrary equations of state and to account for the effects of area change, heat transfer, and friction. The model is documented in a peer-reviewed, [open-access publication](https://www.google.com) and the source code is also stored in a [Zenodo repository](https://doi.org/10.5281/zenodo.2634095).
 
 
 ## Requisites
@@ -20,7 +20,7 @@ AnnularDifffuser1D was developed by PhD candidate [Roberto Agromayor](https://ww
 Please, drop us an email to [roberto.agromayor@ntnu.no](mailto:roberto.agromayor@ntnu.no) if you have questions about the code or you have a bug to report. We would also love to hear about your experiences with AxialOpt in general.
 
 ## How to cite AnnularDiffuser1D?
-If you want to cite AnnularDiffuser1D in a scientific publication, please refer to the [Zenodo repository](https://doi.org/10.5281/zenodo.1409711) listed in the references below and use the DOI (permanent link).
+If you want to cite AnnularDiffuser1D in a scientific publication, please refer to the [Zenodo repository](https://doi.org/10.5281/zenodo.2634095) listed in the references below and use the DOI (permanent link).
 
 
 ## References
@@ -31,7 +31,7 @@ R. Agromayor, and L. O. Nord, One-Dimensional Annular Diffuser Model for Prelimi
 
 R. Agromayor, and L. O. Nord, AnnularDiffuser1D - A One-Dimensional Model for the Performance Prediction of Annular Diffusers, Zenodo repository.
 
-[![DOI AnnularDiffuser1D_Zenodo_repository](https://img.shields.io/badge/DOI-AnnularDiffuser1D_Zenodo_repository-blue.svg)](https://doi.org/10.5281/zenodo.1409711)
+[![DOI AnnularDiffuser1D_Zenodo_repository](https://img.shields.io/badge/DOI-AnnularDiffuser1D_Zenodo_repository-blue.svg)](https://doi.org/10.5281/zenodo.2634095)
 
 
 
