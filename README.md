@@ -3,7 +3,7 @@ AnnularDiffuser1D is a one-dimensional flow model for annular diffusers that all
 
 
 ## Requisites
-AxialOpt was implemented in [MATLAB R2018a](https://nl.mathworks.com/) and requires a [REFPROP v9.1](https://dx.doi.org/10.18434/T4JS3C) installation. The folder [link_refprop_matlab](link_refprop_matlab) contains instructions about how to link REFPROP with MATLAB.
+AnnularDiffuser1D was implemented in [MATLAB R2018a](https://nl.mathworks.com/) and requires a [REFPROP v9.1](https://dx.doi.org/10.18434/T4JS3C) installation. The folder [link_refprop_matlab](link_refprop_matlab) contains instructions about how to link REFPROP with MATLAB.
 
 
 ## Examples
@@ -17,7 +17,7 @@ AnnularDiffuser1D is licensed under the terms of the MIT license. See the [licen
 ## Contact information
 AnnularDifffuser1D was developed by PhD candidate [Roberto Agromayor](https://www.ntnu.edu/employees/roberto.agromayor) and Associate Professor [Lars O. Nord](https://www.ntnu.edu/employees/lars.nord) at the [Process and Power Research Group](https://www.ntnu.edu/ept/process-power#/view/about) of the [Norwegian University of Science and Technology (NTNU)](https://www.ntnu.no/)
 
-Please, drop us an email to [roberto.agromayor@ntnu.no](mailto:roberto.agromayor@ntnu.no) if you have questions about the code or you have a bug to report. We would also love to hear about your experiences with AxialOpt in general.
+Please, drop us an email to [roberto.agromayor@ntnu.no](mailto:roberto.agromayor@ntnu.no) if you have questions about the code or you have a bug to report. We would also love to hear about your experiences with AnnularDiffuser1D in general.
 
 ## How to cite AnnularDiffuser1D?
 If you want to cite AnnularDiffuser1D in a scientific publication, please refer to the [Zenodo repository](https://doi.org/10.5281/zenodo.2634095) listed in the references below and use the DOI (permanent link).
