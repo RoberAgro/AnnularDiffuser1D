@@ -1,5 +1,5 @@
 # AnnularDiffuser1D
-AnnularDiffuser1D is a one-dimensional flow model for annular diffusers that allows to use arbitrary equations of state and to account for the effects of area change, heat transfer, and friction. The model is documented in a peer-reviewed, [open-access publication](https://www.google.com) (submitted) and the source code is also stored in a [Zenodo repository](https://doi.org/10.5281/zenodo.2634095).
+AnnularDiffuser1D is a one-dimensional flow model for annular diffusers that allows to use arbitrary equations of state and to account for the effects of area change, heat transfer, and friction. The model is documented in a peer-reviewed, [open-access publication](https://doi.org/10.3390/ijtpp4030031) and the source code is also stored in a [Zenodo repository](https://doi.org/10.5281/zenodo.2634095).
 
 
 ## Requisites
